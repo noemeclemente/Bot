@@ -41,7 +41,7 @@ O script realiza as seguintes ações:
    - Clica nas coordenadas do botão de login para enviar as credenciais.
 
 ```python
-# arquivo: automacao_login.py
+# arquivo: bot.py
 
 import pyautogui
 
@@ -83,14 +83,14 @@ print(pyautogui.position())
    - Execute o script coordenadas.py para descobrir as coordenadas dos campos que você deseja automatizar.
    - Mova o cursor sobre o campo desejado e observe a posição exibida no terminal.
    ```
-   python coordenadas.py
+   python position.py
    ```
 2. Atulizar coordenadas
    - Atualize o script automacao_login.py com as coordenadas corretas obtidas do script de coordenadas.
 3. Executar o Script de Automação de Login:
    - xecute o script automacao_login.py para realizar a automação de login.
    ```
-   python automacao_login.py
+   python bot.py
    ```
 # Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para enviar uma issue ou um pull request com melhorias ou correções.
