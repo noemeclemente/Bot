@@ -70,7 +70,7 @@ pyautogui.click(x=340, y=426)
 # Script para encontrar as coordenadas 
 Este script ajuda a encontrar as coordenadas exatas para cliques. Ele imprime a posição atual do cursor após um atraso de 3 segundos.
 ```
-# arquivo: encontrar_coordenadas.py
+# arquivo: position.py
 
 import pyautogui
 import time
